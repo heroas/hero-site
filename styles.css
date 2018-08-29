@@ -1,5 +1,8 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-@font-face { font-family: Weiss Lapidar; src: url('WeissLapidar.ttf'); }
+@font-face {
+  font-family: Weiss Lapidar;
+  src: url('WeissLapidar.ttf');
+}
 
 body {
   background-color: #87afef;
@@ -10,25 +13,25 @@ body {
   background-size: 80% 100%; */
 }
 
-
-.caption{
+.title {
+  font-size: 50px;
+  margin: 21px;
   text-align: center;
   font-family: 'Weiss Lapidar'
 }
 
-.leftDiv {
-  width: 70%;
-  float: left;
+.caption {
+  font-size: 17px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Weiss Lapidar'
 }
 
-.rightDiv {
-  width: 30%;
-  float: right;
-}
-
-.naviLinks {
-  color: #000000;
-  font-size: 38px;
+.navLinks {
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Weiss Lapidar'
 }
 
 .emailIcon {
@@ -43,7 +46,6 @@ body {
   font-size: 42px;
   margin: inherit;
   align-self: center;
-
 }
 
 .steamIcon {
@@ -51,260 +53,9 @@ body {
   font-size: 42px;
   margin: inherit;
   align-self: center;
-
 }
 
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
-html {
-  height: 100%;
-}
-
-.filterwrapper {
-  position: absolute;
-  z-index: -1;
-  pointer-events: none;
-  opacity: 0;
-}
-
-.svgtext {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  float: right;
-}
-#parent{ padding:10px;}
-
-.child {height:50px;margin:20px;}
-.childIcons{
+.childIcons {
   margin: 30px;
   text-align: center;
-}
-.glitch-filter-example {
-  display: block;
-  position: relative;
-  text-align: right;
-  float: right;
-  margin: 0;
-}
-
-.glitch-filter-example__filtered-text {
-  -webkit-filter: url(#filter);
-          filter: url(#filter);
-  fill: black;
-  font-family: 'Weiss Lapidar', sans-serif;
-  font-size: 30px;
-  text-align: right;
-  float: right;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-.glitch-filter-example__filtered-text-title {
-  -webkit-filter: url(#filter);
-          filter: url(#filter);
-  fill: black;
-  font-family: 'Weiss Lapidar', sans-serif;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: right;
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-
-.top-r,
-.bot-r,
-.top-g,
-.bot-g {
-  stroke: #87afef;
-}
-
-.top-r {
-  stroke-width: 100px;
-  -webkit-animation: topani 3.5s linear infinite;
-          animation: topani 3.5s linear infinite;
-}
-
-.bot-r {
-  stroke-width: 100px;
-  -webkit-animation: botani 4s linear infinite;
-          animation: botani 4s linear infinite;
-}
-
-.top-g {
-  stroke-width: 50px;
-  animation: topani 4s linear reverse infinite;
-}
-
-.bot-g {
-  stroke-width: 50%;
-  animation: botani 3.5s linear reverse infinite;
-}
-
-@-webkit-keyframes topani {
-  0% {
-    stroke-width: 32px;
-  }
-  7% {
-    stroke-width: 150px;
-  }
-  15% {
-    stroke-width: 126px;
-  }
-  21% {
-    stroke-width: 161px;
-  }
-  32% {
-    stroke-width: 113px;
-  }
-  36% {
-    stroke-width: 102px;
-  }
-  45% {
-    stroke-width: 185px;
-  }
-  50% {
-    stroke-width: 87px;
-  }
-  60% {
-    stroke-width: 187px;
-  }
-  64% {
-    stroke-width: 36px;
-  }
-  72% {
-    stroke-width: 178px;
-  }
-  81% {
-    stroke-width: 132px;
-  }
-  88% {
-    stroke-width: 12px;
-  }
-  93% {
-    stroke-width: 124px;
-  }
-  99% {
-    stroke-width: 149px;
-  }
-}
-
-@keyframes topani {
-  0% {
-    stroke-width: 32px;
-  }
-  7% {
-    stroke-width: 150px;
-  }
-  15% {
-    stroke-width: 126px;
-  }
-  21% {
-    stroke-width: 161px;
-  }
-  32% {
-    stroke-width: 113px;
-  }
-  36% {
-    stroke-width: 102px;
-  }
-  45% {
-    stroke-width: 185px;
-  }
-  50% {
-    stroke-width: 87px;
-  }
-  60% {
-    stroke-width: 187px;
-  }
-  64% {
-    stroke-width: 36px;
-  }
-  72% {
-    stroke-width: 178px;
-  }
-  81% {
-    stroke-width: 132px;
-  }
-  88% {
-    stroke-width: 12px;
-  }
-  93% {
-    stroke-width: 124px;
-  }
-  99% {
-    stroke-width: 149px;
-  }
-}
-@-webkit-keyframes botani {
-  0% {
-    stroke-width: 50px;
-  }
-  9% {
-    stroke-width: 123px;
-  }
-  22% {
-    stroke-width: 52px;
-  }
-  32% {
-    stroke-width: 118px;
-  }
-  43% {
-    stroke-width: 68px;
-  }
-  46% {
-    stroke-width: 86px;
-  }
-  60% {
-    stroke-width: 158px;
-  }
-  67% {
-    stroke-width: 194px;
-  }
-  76% {
-    stroke-width: 151px;
-  }
-  82% {
-    stroke-width: 62px;
-  }
-  91% {
-    stroke-width: 121px;
-  }
-}
-@keyframes botani {
-  0% {
-    stroke-width: 50px;
-  }
-  9% {
-    stroke-width: 123px;
-  }
-  22% {
-    stroke-width: 52px;
-  }
-  32% {
-    stroke-width: 118px;
-  }
-  43% {
-    stroke-width: 68px;
-  }
-  46% {
-    stroke-width: 86px;
-  }
-  60% {
-    stroke-width: 158px;
-  }
-  67% {
-    stroke-width: 194px;
-  }
-  76% {
-    stroke-width: 151px;
-  }
-  82% {
-    stroke-width: 62px;
-  }
-  91% {
-    stroke-width: 121px;
-  }
 }
