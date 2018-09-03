@@ -6,14 +6,11 @@
 
 body {
   background-color: #87afef;
-  margin: auto;
-  /* removing the default body margin */
-  /* background-image: url('aeneas-2.jpg');
-  background-repeat: no-repeat;
-  background-size: 80% 100%; */
 }
 
+
 .title {
+
   font-size: 50px;
   margin: 21px;
   text-align: center;
@@ -27,11 +24,20 @@ body {
   font-family: 'Weiss Lapidar'
 }
 
-.navLinks {
+.navSection {
+  background-color: #eee;
+  margin:auto;
+}
+.navLinksSection {
   font-size: 20px;
   margin: 20px;
+  padding: 10px;
   text-align: center;
   font-family: 'Weiss Lapidar'
+}
+
+.navLink{
+  padding: 10px
 }
 
 .emailIcon {
