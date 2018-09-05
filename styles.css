@@ -65,3 +65,12 @@ body {
   margin: 30px;
   text-align: center;
 }
+
+.projectList{
+  list-style-image: none;
+  margin: auto;
+}
+.projectItem{
+  margin: 50px 0;
+
+}
